@@ -1,0 +1,12 @@
+# YOLO dataset config for medicine Text/Logo detection
+# 'path' is resolved relative to THIS file's parent directory (data/)
+path: C:/Users/pragati/Desktop/counterfeit_auth-main (1)/counterfeit_auth-main/data/raw
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 2
+names:
+  0: Text
+  1: Logo

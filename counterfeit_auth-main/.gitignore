@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Data and Models
+data/crops/
+data/yolo_meds.cache
+data/raw/train/labels.cache
+data/raw/val/labels.cache
+data/raw/test/labels.cache
+models/
+runs/
+*.pt
+*.csv
+
+# Exceptions for source code and essential data tracking
+!src/
+!data/raw/
